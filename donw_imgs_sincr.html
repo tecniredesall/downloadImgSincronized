@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <title>Test Page</title>
+    <script type="text/javascript" charset="utf-8" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/localFile.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    
+    <style type="text/css">
+        * {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+        }
+    </style>
+  <script type="text/javascript" charset="utf-8">       
+
+    
+     
+    document.addEventListener("deviceready", ready, true);  
+    function ready() {
+
+       var remoteImg=new Array();
+       remoteImg.push({remoteFile:"http://www.maquilapps.com/assets/steps0.png",idDom:"dwnldImg0"});
+       remoteImg.push({remoteFile:"http://www.maquilapps.com/assets/steps1.png",idDom:"dwnldImg1"});
+       remoteImg.push({remoteFile:"http://www.maquilapps.com/assets/steps2.png",idDom:"dwnldImg2"});
+       remoteImg.push({remoteFile:"http://www.maquilapps.com/assets/steps3.png",idDom:"dwnldImg3"});
+       remoteImg.push({remoteFile:"http://www.maquilapps.com/assets/steps4.png",idDom:"dwnldImg4"});
+       remoteImg.push({remoteFile:"http://www.maquilapps.com/assets/steps5.png",idDom:"dwnldImg5"});
+       remoteImg.push({remoteFile:"http://www.maquilapps.com/assets/steps6.png",idDom:"dwnldImg6"});
+       remoteImg.push({remoteFile:"http://www.maquilapps.com/assets/service1.png",idDom:"dwnldImg7"});
+       remoteImg.push({remoteFile:"http://www.maquilapps.com/assets/service2.png",idDom:"dwnldImg8"});
+       remoteImg.push({remoteFile:"http://www.maquilapps.com/assets/service3.png",idDom:"dwnldImg9"});
+       remoteImg.push({remoteFile:"http://www.maquilapps.com/assets/service4.png",idDom:"dwnldImg10"});
+       
+       
+       
+       
+       objDonwload=new downloadSincronized({'folder':'menu',"fnReady":function(event)
+       		{
+	           for(var i=0;i<remoteImg.length;i++)
+	           {
+	        	   objDonwload.loadImg(remoteImg[i].remoteFile,remoteImg[i].idDom);
+	           }
+                    
+       		}
+       });
+       
+        
+    }
+    
+  </script>
+</head>
+
+<body>
+    <img src="img/ajax-loader.gif" id="dwnldImg0" />
+    <img src="img/ajax-loader.gif" id="dwnldImg1" />
+    <img src="img/ajax-loader.gif" id="dwnldImg2" />
+    <img src="img/ajax-loader.gif" id="dwnldImg3" />
+    <img src="img/ajax-loader.gif" id="dwnldImg4" />
+    <img src="img/ajax-loader.gif" id="dwnldImg5" />
+    <img src="img/ajax-loader.gif" id="dwnldImg6" />
+    <img src="img/ajax-loader.gif" id="dwnldImg7" />
+    <img src="img/ajax-loader.gif" id="dwnldImg8" />
+    <img src="img/ajax-loader.gif" id="dwnldImg9" />
+    <img src="img/ajax-loader.gif" id="dwnldImg10" />
+</body>
+</html>
