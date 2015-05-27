@@ -28,8 +28,8 @@ uso:
 	->fnReady=funcion que se ejecutara cuando el plugin termine de verificar las imagenes internas con la base de datos local
 
 Ejemplo:
-<code>
-<script type="text/javascript" charset="utf-8">     
+
+
 
 document.addEventListener("deviceready", ready, true);  
     function ready() {
@@ -58,22 +58,22 @@ document.addEventListener("deviceready", ready, true);
         
     }
     
-</script>
 
-body>
-   <img src="img/ajax-loader.gif" id="dwnldImg0" />
-    <img src="img/ajax-loader.gif" id="dwnldImg1" />
-    <img src="img/ajax-loader.gif" id="dwnldImg2" />
-    <img src="img/ajax-loader.gif" id="dwnldImg3" />
-    <img src="img/ajax-loader.gif" id="dwnldImg4" />
-    <img src="img/ajax-loader.gif" id="dwnldImg5" />
-    <img src="img/ajax-loader.gif" id="dwnldImg6" />
-    <img src="img/ajax-loader.gif" id="dwnldImg7" />
-    <img src="img/ajax-loader.gif" id="dwnldImg8" />
-    <img src="img/ajax-loader.gif" id="dwnldImg9" />
-    <img src="img/ajax-loader.gif" id="dwnldImg10" />
+
+
+   img src="img/ajax-loader.gif" id="dwnldImg0" />
+   img src="img/ajax-loader.gif" id="dwnldImg1" />
+   img src="img/ajax-loader.gif" id="dwnldImg2" />
+   img src="img/ajax-loader.gif" id="dwnldImg3" />
+   img src="img/ajax-loader.gif" id="dwnldImg4" />
+   img src="img/ajax-loader.gif" id="dwnldImg5" />
+   img src="img/ajax-loader.gif" id="dwnldImg6" />
+   img src="img/ajax-loader.gif" id="dwnldImg7" />
+   img src="img/ajax-loader.gif" id="dwnldImg8" />
+   img src="img/ajax-loader.gif" id="dwnldImg9" />
+   img src="img/ajax-loader.gif" id="dwnldImg10" />
     
- </body>
+ 
  
 <code/>
 
@@ -107,8 +107,8 @@ use:
 	-> fnReady = function to be performed when the plug end of verifying internal images with local database
 
 example:
-<!--
-<script type="text/javascript" charset="utf-8">     
+
+
 
 document.addEventListener("deviceready", ready, true);  
     function ready() {
@@ -137,22 +137,22 @@ document.addEventListener("deviceready", ready, true);
         
     }
     
-</script>
 
-<body>
-   <img src="img/ajax-loader.gif" id="dwnldImg0" />
-    <img src="img/ajax-loader.gif" id="dwnldImg1" />
-    <img src="img/ajax-loader.gif" id="dwnldImg2" />
-    <img src="img/ajax-loader.gif" id="dwnldImg3" />
-    <img src="img/ajax-loader.gif" id="dwnldImg4" />
-    <img src="img/ajax-loader.gif" id="dwnldImg5" />
-    <img src="img/ajax-loader.gif" id="dwnldImg6" />
-    <img src="img/ajax-loader.gif" id="dwnldImg7" />
-    <img src="img/ajax-loader.gif" id="dwnldImg8" />
-    <img src="img/ajax-loader.gif" id="dwnldImg9" />
-    <img src="img/ajax-loader.gif" id="dwnldImg10" />
+
+
+    img src="img/ajax-loader.gif" id="dwnldImg0" />
+    img src="img/ajax-loader.gif" id="dwnldImg1" />
+    img src="img/ajax-loader.gif" id="dwnldImg2" />
+    img src="img/ajax-loader.gif" id="dwnldImg3" />
+    img src="img/ajax-loader.gif" id="dwnldImg4" />
+    img src="img/ajax-loader.gif" id="dwnldImg5" />
+    img src="img/ajax-loader.gif" id="dwnldImg6" />
+    img src="img/ajax-loader.gif" id="dwnldImg7" />
+    img src="img/ajax-loader.gif" id="dwnldImg8" />
+    img src="img/ajax-loader.gif" id="dwnldImg9" />
+    img src="img/ajax-loader.gif" id="dwnldImg10" />
     
- </body>
--->
+
+
 
 Note: even has details, which will be fixed in the next version
