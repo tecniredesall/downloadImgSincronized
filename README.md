@@ -28,7 +28,7 @@ uso:
 	->fnReady=funcion que se ejecutara cuando el plugin termine de verificar las imagenes internas con la base de datos local
 
 Ejemplo:
-
+<!--
 <script type="text/javascript" charset="utf-8">     
 
 document.addEventListener("deviceready", ready, true);  
@@ -74,6 +74,7 @@ document.addEventListener("deviceready", ready, true);
     <img src="img/ajax-loader.gif" id="dwnldImg10" />
     
  </body>
+ -->
 
 
 Nota: aun tiene detalles, que seran solucionados en la proxima version
@@ -106,7 +107,7 @@ use:
 	-> fnReady = function to be performed when the plug end of verifying internal images with local database
 
 example:
-
+<!--
 <script type="text/javascript" charset="utf-8">     
 
 document.addEventListener("deviceready", ready, true);  
@@ -152,6 +153,6 @@ document.addEventListener("deviceready", ready, true);
     <img src="img/ajax-loader.gif" id="dwnldImg10" />
     
  </body>
-
+-->
 
 Note: even has details, which will be fixed in the next version
