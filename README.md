@@ -28,7 +28,7 @@ uso:
 	->fnReady=funcion que se ejecutara cuando el plugin termine de verificar las imagenes internas con la base de datos local
 
 Ejemplo:
-<noscript>
+<code>
 <script type="text/javascript" charset="utf-8">     
 
 document.addEventListener("deviceready", ready, true);  
@@ -75,7 +75,7 @@ body>
     
  </body>
  
-<noscript/>
+<code/>
 
 Nota: aun tiene detalles, que seran solucionados en la proxima version
 
